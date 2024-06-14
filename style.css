@@ -1,16 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=popins:wght@300;400;500;600;700;800;900&display=swap");
+table,
+tr,
+td {
+    color: darkblue;
+    background-color: yellow;
 
-    {
-    margin: 100;
-    padding: 100;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100;
-    background: lightgoldenrodyellow;
 }
