@@ -15,7 +15,7 @@ body {
     height: 354px;
     justify-content: center;
     border-radius: 10px;
-    background: #ffffff;
+    background: white;
 }
 
 #login,
@@ -39,7 +39,7 @@ body {
     height: 35px;
     text-align: left;
     text-indent: 10px;
-    background: none;
+    background: rgb(205, 219, 196);
     border: none;
     outline: none;
     color: #414141;
@@ -61,7 +61,7 @@ body {
 #sign-up-btn:hover {
     background: #ffffff;
     color: rgb(8, 0, 255);
-    border: #0063ee solid 2px;
+    border: #d1d8e3 solid 2px;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: large;
