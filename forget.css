@@ -1,3 +1,65 @@
-body{
-    background-color: aqua;
+body {
+    background-color: #3079b9a3; /* Alice Blue */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forget-password-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forget-password-form h2 {
+    color: #0911fe;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1e90ff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1e90ff; /* Dodger Blue */
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #104e8b; /* Darker Blue */
+}
+
+button {
+    background-color: #1e90ff; /* Dodger Blue */
+    color: #ffffff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #104e8b; /* Darker Blue */
 }

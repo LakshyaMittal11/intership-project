@@ -55,6 +55,7 @@ body {
     color: rgb(248, 251, 250);
     font-family: 'Oswald', 'sans-serif', 'Poppins';
     font-size: large;
+    border: none;
 }
 
 #login-btn:hover,
@@ -62,8 +63,7 @@ body {
     background: #ffffff;
     color: rgb(8, 0, 255);
     border: #d1d8e3 solid 2px;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', 'sans-serif', 'Poppins';
     font-size: large;
 }
 
