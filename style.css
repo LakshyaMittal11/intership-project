@@ -29,6 +29,7 @@ body {
     height: 10px;
     font-weight: bolder;
     border-radius: 5px;
+    font-size: 30px;
 }
 
 .input-tag {
@@ -43,6 +44,7 @@ body {
     border: none;
     outline: none;
     color: #414141;
+    border-radius: 10px;
 }
 
 #login-btn,
@@ -50,12 +52,12 @@ body {
     margin: auto;
     width: 62%;
     height: 35px;
-    border-radius: 2px;
     background: #0063ee;
     color: rgb(248, 251, 250);
     font-family: 'Oswald', 'sans-serif', 'Poppins';
     font-size: large;
     border: none;
+    border-radius: 10px;
 }
 
 #login-btn:hover,
@@ -65,6 +67,8 @@ body {
     border: #d1d8e3 solid 2px;
     font-family: 'Oswald', 'sans-serif', 'Poppins';
     font-size: large;
+    border-radius: 10px;
+
 }
 
 #container2,
@@ -75,7 +79,7 @@ body {
 }
 
 a {
-    color: rgb(188, 120, 86);
+    color: rgb(6, 6, 246);
     text-decoration: solid underline;
 }
 
