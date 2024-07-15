@@ -4,10 +4,10 @@ const db = require("./router/database-config")
 const app = express(); 
 
 app.use("/js",express.static(__dirname+"/public/js"));
-console.log(__dirname);
 app.use("/css",express.static(__dirname+"/public/css"));
 
 app.use("/", require("./router/routes"));
+app.use("/api",require("./controller/auth"))
 db.connect((err)=>{
     if(err) throw err
     console.log("DATAbase is connected ");

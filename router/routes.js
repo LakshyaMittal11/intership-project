@@ -10,8 +10,13 @@ router.get("/signup",(req,res)=>{
 router.get("/forget",(req,res)=>{
     res.sendFile("forget.html",{root:"./public/html"})
 })
+
 router.get("/",(req,res)=>{
     res.sendFile("index.html",{root:"./"}
     )
+})
+
+router.get("/home",(req,res)=>{
+    res.sendFile("home.html",{root:"./public/html"})
 })
 module.exports = router
