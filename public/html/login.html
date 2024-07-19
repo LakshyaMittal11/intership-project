@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>login </title>
+    <title>login</title>
+    <link rel="stylesheet" href="/css/style.css">    
 </head>
-
 <body>
-    <form id="container1"  id="form">
-        <div id="login">Login</div>
-        <input class="input-tag" type="email" name="email" placeholder="Email">
-        <input class="input-tag" type="password" name="password" placeholder="Password">
-        <div><input type="checkbox">
-            <label class="form-check-label" for="form2Example31"> Remember me </label>
-        </div>
-        <button type="submit" id="login-btn">Login</button>
-        <a href="/forget">Forget Password</a>
-        <p class="lead fw-normal mb-0 me-3">Sign in with : 
-        </p>
-
-        <div>Don't have an account ? <a href="/signup">Signup</a></div>
-    </form>
+    <form class="container" onsubmit="return false;" id="form">
+        <h2> Login </h2>
+            <input type="email" id="email" autocomplete="off" placeholder="email" required>
+            <input type="password"  id="password" autocomplete="off" placeholder="Password" required>
+            <a  href="/forget" >Forget password ?</a>
+            <button type="submit" >LogIn</button>
+            <div>Does not have an account? <a href="/signup">Signup</a></div>
+            <div class="alert alert-danger" role="alert" id="error">
+            </div>
+            <div class="alert alert-success" role="alert" id="success">
+            </div>
+        </form>
     <script src="/js/login.js"></script>
 </body>
-
 </html>

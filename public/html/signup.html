@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>signup</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <form id="container1">
-        <div id="sign-up">Sign-up</div>
-        <input class="input-tag" type="text" name="name" placeholder="Full Name">
-        <input class="input-tag" type="email" name="email" placeholder="Enter the Email">
-        <input class="input-tag" type="text" name="password" placeholder="Enter the Password">
-        <input class="input-tag" type="password" name="Repassword" placeholder="Enter the Repassword">
-        <button id="sign-up-btn">Sign Up</button>
-        <div>Already have an account ? <a href="/login">Login</a></div>
+    <form class="container" onsubmit="return false;" id="form">
+        <h2>Signup</h2>
+        <input type="name" id="fullname" placeholder="Name" required autocomplete="off">
+        <input type="email" id="email" placeholder="Email" required autocomplete="off">
+        <input type="password" id="password" placeholder="Password" required autocomplete="off">
+        <button type="submit" id="sign-up-btn">Sign Up</button>
+        <div>Already have an account ? <a href="/login">login</a></div>
+        <div class="alert alert-danger" role="alert" id="error">
+            ERROR
+        </div>
+        <div class="alert alert-success" role="alert" id="success">
+            SUCCESS
+        </div>
+
     </form>
-    <link rel="stylesheet" href="/css/style.css">
     <script src="/js/signup.js"></script>
 </body>
 
