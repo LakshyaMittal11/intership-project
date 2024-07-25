@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forget password</title>
+    <title>Forget Password</title>
     <link rel="stylesheet" href="/css/forget.css">
 </head>
-
 <body>
-    <div class="container">
-        <form class="forget-password-form">
-            <h2>Forget Password</h2>
-            <div class="input-group">
-                <input type="email" id="email" name="email" required placeholder="Email">
-            </div>
-            <button type="submit">Request OTP</button>
-        </form>
-    </div>
-</body>
+    <form class="container" id="otp-form" style="display:block;">
+        <h2>Forget Password</h2>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="button" onclick="sendOtp()">Send OTP</button>
+    </form>
 
+    <form class="container" id="reset-form" style="display:none;">
+        <h2>Reset Password</h2>
+        <input type="OTP" id="otp" placeholder="Enter OTP" required>
+        <input type="password" id="new-password" placeholder="Enter new password" required>
+        <input type="password" id="confirm-password" placeholder="Confirm new password" required>
+        <button type="button" onclick="resetPassword()">Reset Password</button>
+    </form>
+    <script src="/js/forgetPassword.js"></script>
+</body>
 </html>
