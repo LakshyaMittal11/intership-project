@@ -5,7 +5,7 @@ const logout = require("../controller/logout")
 const loggedIn = require("../controller/loggedIn")
 
 router.get("/", (req, res) => {
-    res.sendFile("index.html", { root: "./" }
+    res.sendFile("index.html", { root: ".//public/html" }
     )
 })
 router.get("/login", (req, res) => {
