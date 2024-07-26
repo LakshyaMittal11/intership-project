@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"noed index.js",
+    "start":"noed index",
     "dev": "node --watch --env-file=.env index"
   },
   "author": "",
