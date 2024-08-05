@@ -6,4 +6,4 @@ const db = sql.createConnection({
     database:process.env.DATABASE,
     // port: process.env.DB_PORT
 })
-module.exports = db
+module.exports = 
